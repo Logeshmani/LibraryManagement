@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = SprintManagement.BLL.Tests
+build_property.ProjectDir = C:\CTS\ProjectSkeleton\agileprojectmanagement\SprintManagement\SprintManagement.BLL.Tests\
