@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5BEC571-980B-47D9-BD0C-BE59A02E77B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9483C388-8FF5-4063-8BBE-5CA5C2FF5F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderManagement.DAL", "ReaderManagement.DAL\ReaderManagement.DAL.csproj", "{1F718D0D-A84A-40BC-B430-B3DE905CECFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderManagement.BLL", "ReaderManagement.BLL\ReaderManagement.BLL.csproj", "{AD0A820A-730C-4A1A-B790-0F5816FDF975}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReaderManagement.API", "ReaderManagement.API\ReaderManagement.API.csproj", "{B366FF27-34EE-42B8-A3E9-267A6BFBDEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderManagement.BLL.Tests", "ReaderManagement.BLL.Tests\ReaderManagement.BLL.Tests.csproj", "{9D634099-4011-4AD9-B140-1AF4C7C91BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F718D0D-A84A-40BC-B430-B3DE905CECFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F718D0D-A84A-40BC-B430-B3DE905CECFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F718D0D-A84A-40BC-B430-B3DE905CECFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F718D0D-A84A-40BC-B430-B3DE905CECFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0A820A-730C-4A1A-B790-0F5816FDF975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0A820A-730C-4A1A-B790-0F5816FDF975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0A820A-730C-4A1A-B790-0F5816FDF975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0A820A-730C-4A1A-B790-0F5816FDF975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B366FF27-34EE-42B8-A3E9-267A6BFBDEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B366FF27-34EE-42B8-A3E9-267A6BFBDEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B366FF27-34EE-42B8-A3E9-267A6BFBDEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B366FF27-34EE-42B8-A3E9-267A6BFBDEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D634099-4011-4AD9-B140-1AF4C7C91BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D634099-4011-4AD9-B140-1AF4C7C91BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D634099-4011-4AD9-B140-1AF4C7C91BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D634099-4011-4AD9-B140-1AF4C7C91BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F718D0D-A84A-40BC-B430-B3DE905CECFE} = {D5BEC571-980B-47D9-BD0C-BE59A02E77B4}
+		{AD0A820A-730C-4A1A-B790-0F5816FDF975} = {D5BEC571-980B-47D9-BD0C-BE59A02E77B4}
+		{B366FF27-34EE-42B8-A3E9-267A6BFBDEC5} = {D5BEC571-980B-47D9-BD0C-BE59A02E77B4}
+		{9D634099-4011-4AD9-B140-1AF4C7C91BF2} = {9483C388-8FF5-4063-8BBE-5CA5C2FF5F37}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C4A0D9D-6EB9-484E-AFFB-4A36B901A53A}
+	EndGlobalSection
+EndGlobal
